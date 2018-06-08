@@ -14,6 +14,8 @@ class Extension(extensions.Extension):
             models.ImageField(
                 verbose_name=_('Page thumbnail'),
                 help_text=("Allows set thumbnail to this page."),
+                blank=True, null=True,
+                upload_to="page_thumbs/"
             ))
 
     def handle_modeladmin(self, modeladmin):
