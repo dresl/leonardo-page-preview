@@ -13,7 +13,7 @@ Installation
 
 .. code-block:: bash
 
-    pip install leonardo-page-search
+    pip install leonardo-page-preview
 
 Read More
 =========
